@@ -153,16 +153,16 @@
                   div.bg-color-white.p-4.tarjeta
                     ul.lista-ul--color.mb-0
                       li.mb-1.d-flex
-                        i.fas.fa-circle-check.bg-color-12
+                        i.fas.fa-circle-arrow-right.bg-color-12
                         p.mb-0 Filtrado automático en los encabezados.
                       li.mb-1.d-flex
-                        i.fas.fa-circle-check.bg-color-12
+                        i.fas.fa-circle-arrow-right.bg-color-12
                         p.mb-0 Aplicación de estilos predefinidos.
                       li.mb-1.d-flex
-                        i.fas.fa-circle-check.bg-color-12
+                        i.fas.fa-circle-arrow-right.bg-color-12
                         p.mb-0 Referencias estructuradas en fórmulas.
                       li.mb-1.d-flex
-                        i.fas.fa-circle-check.bg-color-12
+                        i.fas.fa-circle-arrow-right.bg-color-12
                         p.mb-0 Expansión automática al agregar nuevos registros.
     
     separador
@@ -239,10 +239,10 @@
           div.bg-color-white.p-4.tarjeta.mb-3
             ul.lista-ul--color.mb-0
               li.mb-1.d-flex
-                i.fas.fa-circle-check.bg-color-12
+                i.fas.fa-circle-arrow-right.bg-color-12
                 p.mb-0 Delimitadores (como espacios, comas o tabuladores)
               li.mb-1.d-flex
-                i.fas.fa-circle-check.bg-color-12
+                i.fas.fa-circle-arrow-right.bg-color-12
                 p.mb-0 Ancho fijo (posición específica de corte)
               
           p.mb-0.text-white Este procedimiento es esencial, por ejemplo, cuando se importan datos desde sistemas externos o archivos CSV que no respetan la estructura tabular. Un caso típico es una columna con nombres completos que se desea dividir en nombre, primer apellido y segundo apellido.
@@ -397,16 +397,16 @@
           p <b>Nota</b>.  Las posiciones de los datos están definidas de la siguiente manera:
           ul.lista-ul--color.mb-0
             li.mb-1.d-flex
-              i.fas.fa-circle-check.bg-color-12
+              i.fas.fa-circle-arrow-right.bg-color-12
               p.mb-0 <b>Código</b>: 3 caracteres
             li.mb-1.d-flex
-              i.fas.fa-circle-check.bg-color-12
+              i.fas.fa-circle-arrow-right.bg-color-12
               p.mb-0 <b>Nombre</b>: 13 caracteres
             li.mb-1.d-flex
-              i.fas.fa-circle-check.bg-color-12
+              i.fas.fa-circle-arrow-right.bg-color-12
               p.mb-0 <b>Cantidad</b>: 4 caracteres
             li.mb-1.d-flex
-              i.fas.fa-circle-check.bg-color-12
+              i.fas.fa-circle-arrow-right.bg-color-12
               p.mb-0 <b>Monto</b>: 7 caracteres
     
     p.mb-5 Los pasos del procedimiento son:
@@ -438,13 +438,13 @@
                   | Hacer clic para colocar las líneas divisorias en las posiciones correspondientes:
               ul.lista-ul--color.ms-3
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Después del carácter 3 (código)
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Después del carácter 16 (nombre)
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Después del carácter 20 (cantidad)
               ol.lista-ol--cuadro.mb-0
                 li.d-flex.bg-color-white.p-1
@@ -457,16 +457,16 @@
                   | Asignar el formato adecuado para cada columna:
               ul.lista-ul--color.ms-3
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 <b>Columna 1</b>: Texto (para conservar ceros iniciales)
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 <b>Columna 2</b>: Texto
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 <b>Columna 3</b>: General
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 <b>Columna 4</b>: General
               ol.lista-ol--cuadro.mb-
                 li.d-flex.bg-color-white.p-1
@@ -565,16 +565,16 @@
             .bg-color-5.tarjeta.p-4(data-aos="fade-left")
               ul.lista-ul--color.mb-0
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Archivos de texto plano: .txt, .csv
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Bases de datos: Access, SQL Server
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Páginas web: .html
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Archivos estructurados: .xml, .json
 
         p.mb-5 Para estos casos, la herramienta Obtener datos (basada en Power Query) proporciona funciones avanzadas que permiten:
@@ -587,13 +587,13 @@
             .bg-color-18.tarjeta.p-4(data-aos="fade-left")
               ul.lista-ul--color.mb-0
                 li.mb-2.d-flex.bg-color-white.p-1
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 <b>Limpiar</b> datos innecesarios.
                 li.mb-2.d-flex.bg-color-white.p-1
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 <b>Filtrar</b> registros.
                 li.mb-2.d-flex.bg-color-white.p-1
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 <b>Reestructurar</b> columnas y tipos antes de cargar los datos en la hoja de trabajo.
 
         p.mb-5 A continuación, se presenta un ejemplo práctico de conversión usando un archivo en formato CSV.
@@ -630,13 +630,13 @@
         .bg-color-17.tarjeta.p-4(data-aos="fade-left")
           ul.lista-ul--color.mb-0
             li.mb-2.d-flex.bg-color-white.p-1
-              i.fas.fa-circle-check.bg-color-12
+              i.fas.fa-circle-arrow-right.bg-color-12
               p.mb-0 Cada <b>columna</b> representa un atributo o variable.
             li.mb-2.d-flex.bg-color-white.p-1
-              i.fas.fa-circle-check.bg-color-12
+              i.fas.fa-circle-arrow-right.bg-color-12
               p.mb-0 Cada <b>fila</b> representa una observación o registro.
             li.mb-2.d-flex.bg-color-white.p-1
-              i.fas.fa-circle-check.bg-color-12
+              i.fas.fa-circle-arrow-right.bg-color-12
               p.mb-0 Cada <b>celda</b> contiene un único valor.
     
     p.mb-5 Este formato facilita la limpieza, análisis y visualización de los datos, y constituye un estándar en entornos de análisis profesional.
@@ -708,13 +708,13 @@
               div.bg-color-white.p-4.tarjeta
                 ul.lista-ul--color.mb-0
                   li.mb-0.d-flex
-                    i.fas.fa-circle-check.bg-color-12
+                    i.fas.fa-circle-arrow-right.bg-color-12
                     p.mb-0 <b>Tabla de ventas</b>: contiene el ID del cliente y los detalles de la transacción.
                   li.mb-0.d-flex
-                    i.fas.fa-circle-check.bg-color-12
+                    i.fas.fa-circle-arrow-right.bg-color-12
                     p.mb-0 <b>Tabla de clientes</b>: contiene los datos del cliente asociados al ID.
                   li.mb-0.d-flex
-                    i.fas.fa-circle-check.bg-color-12
+                    i.fas.fa-circle-arrow-right.bg-color-12
                     p.mb-0 Las funciones BUSCARV() o XLOOKUP() permiten recuperar los datos cuando se necesiten.
         p.mb-0 Este enfoque mejora la escalabilidad del archivo, reduce errores y facilita la actualización de datos.
 
@@ -991,16 +991,16 @@
         .bg-color-22.bg.tarjeta.p-4(data-aos="fade-left")
           ul.lista-ul--color.mb-0
             li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-              i.fas.fa-circle-check.bg-color-12
+              i.fas.fa-circle-arrow-right.bg-color-12
               p.mb-0 Selección múltiple de valores discretos.
             li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-              i.fas.fa-circle-check.bg-color-12
+              i.fas.fa-circle-arrow-right.bg-color-12
               p.mb-0 Filtros de texto: contiene, comienza con, termina con.
             li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-              i.fas.fa-circle-check.bg-color-12
+              i.fas.fa-circle-arrow-right.bg-color-12
               p.mb-0 Filtros numéricos: mayor que, menor que, entre.
             li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-              i.fas.fa-circle-check.bg-color-12
+              i.fas.fa-circle-arrow-right.bg-color-12
               p.mb-0 Filtros de fecha: incluye opciones relativas como "mes pasado", "esta semana", "este año".
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -1062,16 +1062,16 @@
             .bg-color-23.bg.tarjeta.p-4(data-aos="fade-left")
               ul.lista-ul--color.mb-0
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Claridad visual del estado actual del filtro aplicado.
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Facilidad para seleccionar y deseleccionar múltiples elementos.
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Posibilidad de conectar una misma segmentación a varias tablas o gráficos.
                 li.mb-1.d-flex.bg-color-white.p-1.tarjeta
-                  i.fas.fa-circle-check.bg-color-12
+                  i.fas.fa-circle-arrow-right.bg-color-12
                   p.mb-0 Opciones de formato personalizables que permiten integrarse al diseño corporativo.
 
         .titulo-con-imagen.mb-5(data-aos="fade-right")
