@@ -62,7 +62,7 @@ figcaption
   &-5
     background-color: #ACE3BE
   &-6
-    background-color: #FDF699
+    background-color: #FDF699 !important
   &-7
     background-color: #31BA5C
     border-radius: 50%
@@ -87,6 +87,26 @@ figcaption
     background-color: #D9D6D2
   &-14
     background-color: #31BA5C
+  &-15
+    background-color: #E5E7F3
+  &-16
+    background-color: #F0EFED
+  &-17
+    background-color: #FAE700
+  &-18
+    background-color: #9FA4D5
+  &-19
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(233, 247, 237, 1) 30%, rgba(229, 231, 243, 1) 70%, rgba(255, 255, 255, 1) 100%)
+  &-20
+    background-color: #E5E7F3
+    &:hover
+      background-color: #FDF699
+  &-21
+    background-color: #0B1468
+  &-22
+    background-color: #22813F
+  &-23
+    background-color: #111D96
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -116,10 +136,10 @@ figcaption
 ///////////////fondos/////////////////
 .bg-fondo
   &-1
-    //background-image: url("../assets/bg/bg1.png") !important
+    background-image: url("../assets/curso/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/curso/bg2.svg") !important
     background-position: bottom
   &-slider
     //background-image: url("../assets/bg/bg-slider.png") !important
@@ -190,3 +210,33 @@ figcaption
   background-color: #ACE3BE
   color: $color-sistema-texto
 
+//////////////CUSTOM TABS-A/////////////
+.tabs-a.color-acento-botones .tabs-a__tab__selected 
+  background-color: #E666FD
+  color: #fff
+.tabs-a__tab
+  background-color: #FAE700
+.tarjeta.color-acento-botones--borde
+  background-color: #E9F7ED
+  border: solid 4px #E9F7ED
+
+///////////// CUSTOM LINEA DE TIEMPO D
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #FAE700 !important
+      color: $color-sistema-texto
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #FDF699
+
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #CFD1EA
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #adb8c2 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #CFD1EA
