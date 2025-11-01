@@ -269,7 +269,7 @@
           p.mb-0 = [@Salario]*0.05
           p.mb-0 Al escribir esta fórmula en una sola celda de la columna "Comisión", Excel la aplicará automáticamente a toda la columna, extendiendo el cálculo sin necesidad de copiar y pegar.
 
-    h3.bg-color-14.d-inline.p-3.tarjeta Actividad práctica: uso de referencias estructuradas
+    h3.bg-color-14.d-md-inline.p-3.tarjeta Actividad práctica: uso de referencias estructuradas
     
     p.mb-5.mt-5 Calcular el subtotal para cada producto de forma legible y dinámica, de modo que la fórmula se actualice automáticamente al agregar más filas. A continuación, se presenta el conjunto de datos de ejemplo:
 
@@ -365,7 +365,7 @@
         .bg-color-5.tarjeta.p-5(data-aos="fade-left")
           p.mb-0 Otra ventaja importante de las Tablas de Excel es la opción de activar la fila de totales, una herramienta que agrega una fila especial al final de la tabla para calcular sumas, promedios, conteos u otras funciones de agregación sin necesidad de fórmulas adicionales. Al habilitar esta opción desde la pestaña Diseño de tabla, aparece una nueva fila con menús desplegables en cada celda. Esto permite elegir qué tipo de operación aplicar sobre cada columna de forma rápida y personalizada.
 
-    h3.bg-color-14.d-inline.p-3.tarjeta Actividad práctica: uso de la fila de totales
+    h3.bg-color-14.d-md-inline.p-3.tarjeta Actividad práctica: uso de la fila de totales
     
     p.mb-5.mt-5 Calcular rápidamente el total de subtotales y la suma de cantidades sin escribir fórmulas manualmente. Siga los pasos a continuación para agregar una fila de totales al final de la tabla:
 

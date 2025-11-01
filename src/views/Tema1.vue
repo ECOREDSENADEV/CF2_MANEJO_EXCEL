@@ -122,7 +122,7 @@
           li.d-flex
             .lista-ol--cuadro__vineta
               span d
-            | Verifique que la selección sea correcta y asegúrese de marcar la casilla <b>"La tabla tiene encabezados"</b>, si la primera fila contiene los títulos de las columnas.
+            p Verifique que la selección sea correcta y asegúrese de marcar la casilla <b>"La tabla tiene encabezados"</b>, si la primera fila contiene los títulos de las columnas.
           li.d-flex
             .lista-ol--cuadro__vineta
               span e
@@ -147,7 +147,7 @@
           .col-lg-8.order-lg-1
             .bg-color-18.tarjeta.p-4(data-aos="fade-left")
               .row.align-items-start
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema1/8.svg").mx-auto
                 .col-lg
                   div.bg-color-white.p-4.tarjeta
@@ -247,7 +247,7 @@
               
           p.mb-0.text-white Este procedimiento es esencial, por ejemplo, cuando se importan datos desde sistemas externos o archivos CSV que no respetan la estructura tabular. Un caso típico es una columna con nombres completos que se desea dividir en nombre, primer apellido y segundo apellido.
 
-    h3.bg-color-14.d-inline.p-3.tarjeta Ejemplo 1. Separación de nombres completos usando delimitador "espacio"
+    h3.bg-color-14.d-lg-inline.p-3.tarjeta Ejemplo 1. Separación de nombres completos usando delimitador "espacio"
     
     p.mb-5.mt-5 En este ejemplo, se presenta cómo dividir una columna que contiene nombres completos en tres columnas: Nombre, Primer Apellido y Segundo Apellido.
 
@@ -307,7 +307,7 @@
                     span g
                   | Hacer clic en Finalizar.
 
-        h3.bg-color-14.d-inline.p-3.tarjeta Ejemplo 2. Separación de datos con delimitador punto y coma
+        h3.bg-color-14.d-lg-inline.p-3.tarjeta Ejemplo 2. Separación de datos con delimitador punto y coma
     
         p.mb-5.mt-5 En muchos casos, los sistemas ERP exportan información en formato CSV utilizando el punto y coma (;) como delimitador. Para analizar estos datos correctamente en Excel, es necesario separarlos en columnas individuales mediante la herramienta Texto en columnas.
 
@@ -650,8 +650,8 @@
 
     .bg-full-width.bg-fondo-2
       .px-4.px-md-5.pb-md-3
-        .row.justify-content-center.mb-5.align-items-center.p-5
-          .col-lg-8.mb-3.mb-lg-0.order-lg-2
+        .row.justify-content-center.mb-5.align-items-center.p-lg-5
+          .col-lg-8.mb-3.mb-lg-0.order-2
             SlyderF(columnas="col-12 col-lg-6")
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema1/36.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
@@ -673,7 +673,7 @@
                 img(src='@/assets/curso/tema1/40.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Sin totales o cálculos intermedios
                 p.text-center Estos elementos deben ubicarse fuera del rango de datos principal, especialmente si se usarán tablas dinámicas.
-          .col-lg-4.order-lg-1
+          .col-lg-4.order-1.mb-3.mb-lg-0
             figure
               img(src='@/assets/curso/tema1/35.png', alt='')
     

@@ -17,10 +17,10 @@
 
         .bg-color-8.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-xl-auto.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/intro/2.svg', alt='')
-            .col-lg
+            .col-xl
               .p-4
                 p.mb-0(data-aos="fade-up") En el entorno actual, la información rara vez es estática o reducida; por el contrario, los datos crecen, se transforman y exigen ser analizados desde distintas perspectivas. En este contexto, las herramientas de gestión y visualización de Excel marcan una diferencia significativa. Por esta razón, Microsoft Excel se ha consolidado como la herramienta de gestión de datos más utilizada en entornos corporativos a nivel mundial. Su versatilidad permite desde la manipulación básica de información hasta la realización de análisis complejos que respaldan la toma de decisiones estratégicas. En el panorama empresarial contemporáneo, donde los datos son considerados un activo esencial, el dominio de Excel trasciende el uso de fórmulas para convertirse en una competencia indispensable para profesionales de múltiples disciplinas.
     
